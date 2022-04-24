@@ -1,0 +1,9 @@
+{ 
+    "gallery":"Kids pictures gallery",
+    "images":[
+       {"name":"Cheese","file":"gallery/cheese.png"},
+       {"name":"Blue Cheese","file":"gallery/cheese_blue.png"},
+       {"name":"Purple Cheese","file":"gallery/cheese_purple.png"},
+       {"name":"Red Cheese","file":"gallery/cheese_red.png"}
+    ]
+}

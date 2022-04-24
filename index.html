@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab_5</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/ui-lightness/jquery-ui.css">
+    </head>
+    <body>
+        <h1>Лабораторная №5: Javascript - jQuery</h1>
+        <h2>Студент: Лапунов А. Ю.</h2>
+        <div class="ajax_load_info">
+            <p id="json_no_info">JSON-файл галереи пока что не загружен</p>
+        </div>
+        <div class="ajax_load_demonstrate">
+            <div class="show_button" id="prev"><<</div>
+            <div class="show_button" id="next">>></div>
+            <div class="gallery">
+                <img></img>
+            </div>
+        </div>
+        <div class="slider_div">
+            <h2>Слайдер:</h2>
+            <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 10%;">
+                </span>
+            </div>
+        </div>
+        <div class="accordion">
+            <h2>Меню "аккордеон":</h2>
+            <div id="accordion">
+                <h3>Сырный сыр 1</h3>
+                <div>
+                    <p>
+                        Приятно, граждане, наблюдать, как акционеры крупнейших компаний неоднозначны и будут объявлены нарушающими общечеловеческие нормы этики и морали. В частности, постоянное информационно-пропагандистское обеспечение нашей деятельности говорит о возможностях анализа существующих паттернов поведения. Предварительные выводы неутешительны: высокотехнологичная концепция общественного уклада требует от нас анализа глубокомысленных рассуждений. Но повышение уровня гражданского сознания способствует подготовке и реализации кластеризации усилий.
+                    </p>
+                </div>
+                <h3>Сырный сыр 2</h3>
+                <div>
+                    <p>
+                        Принимая во внимание показатели успешности, глубокий уровень погружения говорит о возможностях своевременного выполнения сверхзадачи. Также как высокотехнологичная концепция общественного уклада, в своём классическом представлении, допускает внедрение своевременного выполнения сверхзадачи. Как принято считать, элементы политического процесса и по сей день остаются уделом либералов, которые жаждут быть объединены в целые кластеры себе подобных.
+                    </p>
+                </div>
+                <h3>Сырный сыр 3!</h3>
+                <div>
+                    <p>
+                        Но сплочённость команды профессионалов создаёт предпосылки для системы обучения кадров, соответствующей насущным потребностям. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности, в своём классическом представлении, допускает внедрение переосмысления внешнеэкономических политик! А ещё стремящиеся вытеснить традиционное производство, нанотехнологии, вне зависимости от их уровня, должны быть объединены в целые кластеры себе подобных.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="datepicker">
+            <h2>Datepicker:</h2>
+            <p>Выбрать дату:
+                <input type="text" id="datepicker">
+            </p>
+        </div>
+        <div class="pbar">
+            <h2>Progress-bar:</h2>
+            <div id="progressbar">
+                <div class="progress_label">
+                </div>
+            </div>
+            <img id="leo_image" class="hidden_image" src="media_images/Screenshot_1.png"/>
+        </div>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Сыр №1</a></li>
+                <li><a href="#tabs-2">Сыр №2</a></li>
+                <li><a href="#tabs-3">Сыр №3</a></li>
+                <li><a href="#tabs-4">Сыр №4</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Это сыр №1:</p>
+                <img src="gallery/cheese.png">
+            </div>
+            <div id="tabs-2">
+                <p>Это сыр №2:</p>
+                <img src="gallery/cheese_blue.png">
+            </div>
+            <div id="tabs-3">
+                <p>Это сыр №3:</p>
+                <img src="gallery/cheese_purple.png">
+            </div>
+            <div id="tabs-4">
+                <p>Это сыр №4:</p>
+                <img src="gallery/cheese_red.png">
+            </div>
+        </div>
+        <div class="empty_space"></div>
+        </div>
+    </body>
+    <script src="jquery-2.2.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/jquery-ui.min.js"></script>
+    <script src="ajax_script.js"></script>
+    <script src="another_jquery_script.js"></script>
+</html>
